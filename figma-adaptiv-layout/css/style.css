@@ -1,0 +1,95 @@
+@media screen and (min-width: 830px) and (max-width:1400px){
+    main {
+        margin: 20px 5% 100px 5%;
+    }
+    main .first article {
+        max-width: 50%;
+        display: inline-block;
+        padding-right: 10%; 
+    }
+    
+    main .first article p {
+        font-size: 17px;
+    }
+
+    main .first article h1 {
+        font-size: 38px;
+    }
+
+    main .first img {
+        width: 37%;
+    }
+    main .second img {
+        display: none;
+    }
+
+    main .second article .item{
+        width: 15%;
+        padding-right: 5%;
+    }
+
+}
+
+@media screen and (min-width: 375px) and (max-width:830px){
+    main {
+        margin: 50px 30px 100px 30px;
+    }
+    main .first article {
+        width: 100%;
+        display: inline-block;
+    }
+    
+    main .first article p {
+        font-size: 15px;
+    }
+
+    main .first article h1 {
+        font-size: 30px;
+    }
+    main .second img {
+        display: none;
+    }
+    main .first img {
+        width: 70%;
+        margin: auto;
+    }
+
+    main .second article .item{
+        width: 33%;
+        padding-right: 10%;
+    }
+}
+
+@media screen and (min-width:1400px){
+
+    main .first article {
+        display: inline-block;
+        padding-right: 14%; 
+    }
+
+    main .first article p {
+        font-size: 18px;
+    }
+
+    main .first article h1 {
+        font-size: 40px;
+    }
+
+    main .second article {
+        display: inline-block;
+        width: 70%;
+    }
+
+    main .second article .item{
+        width: 20%;
+        padding-right: 5%;
+    }
+
+    main .second img {
+        width: 15%;
+    }
+}
+
+main .second article .item{
+    display: inline-block;
+}
